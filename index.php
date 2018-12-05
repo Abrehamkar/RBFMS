@@ -1,3 +1,6 @@
 <?php
-  return $_GET;
+  $username = $_GET['username'];
+  $password = $_GET['password'];
+
+  return "{$username} and {$password}";
 ?>
