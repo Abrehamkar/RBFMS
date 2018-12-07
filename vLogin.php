@@ -13,7 +13,7 @@ $row = mysqli_fetch_array($result);
 $count = mysqli_num_rows($result);
 
 if($count >= 1) {
-    $exits = 1;
+    $exists = 1;
 }
 
 $message = "";
