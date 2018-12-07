@@ -15,7 +15,7 @@ $source = $_POST['source'];
 if($source == "unity.vendorapp")
 {
     $verified = 0;
-    $query = "INSERT INTO `Vendors`(`First Name`, `Last Name`, `Date of Birth`, `Phone Number`, `CNIC`, `Skill`, `Password`, `Verified`) VALUES ('$firstName', '$lastName', '$dob', '$phoneNumber', '$cnic', '$skill', '$password', '$verified')";
+    $query = "INSERT INTO `Vendors`(`First Name`, `Last Name`, `Date of Birth`, `Phone Number`, `CNIC`, `CNIC IMG`, `Skill`, `Password`, `Verified`) VALUES ('$firstName', '$lastName', '$dob', '$phoneNumber', '$cnic', '$cnicImg', '$skill', '$password', '$verified')";
     $result = mysqli_query($conn, $query);
 }
 
